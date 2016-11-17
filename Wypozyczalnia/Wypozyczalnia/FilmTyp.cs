@@ -19,5 +19,9 @@ namespace Wypozyczalnia {
         public double getKosztDnia() {
             return this.kosztDnia;
         }
+
+        public int getIloscPkt() {
+            return iloscPkt;
+        }
     }
 }
