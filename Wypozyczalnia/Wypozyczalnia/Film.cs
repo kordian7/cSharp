@@ -15,6 +15,14 @@ namespace Wypozyczalnia {
             this.rezyser = rezyser;
             this.filmTyp = filmTyp;
         }
+
+        public FilmTyp getFilmTyp() {
+            return this.filmTyp;
+        }
+
+        public string getTytul() {
+            return this.nazwa;
+        }
     }
 
     

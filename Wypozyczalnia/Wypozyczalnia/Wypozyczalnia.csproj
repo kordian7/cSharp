@@ -45,10 +45,14 @@
     <Compile Include="FilmDAO.cs" />
     <Compile Include="FilmTyp.cs" />
     <Compile Include="Klient.cs" />
+    <Compile Include="WypozyczeniaDAO.cs" />
     <Compile Include="KlientDAO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Wypozyczenie.cs" />
+    <Compile Include="WyswietlaczPotwierdzenia.cs" />
+    <Compile Include="WyswietlaczPotwierdzeniaHTML.cs" />
+    <Compile Include="WyswietlaczPotwierdzeniaStandard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

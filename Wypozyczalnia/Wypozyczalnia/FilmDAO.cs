@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Wypozyczalnia {
     class FilmDAO {
+
+        List<Film> lista = new List<Film>();
+        FilmTyp normalny = new FilmTyp("normalny", 1, 1.5);
+        FilmTyp dzieciecy = new FilmTyp("dzieciecy", 1, 1.2);
+        FilmTyp nowosc = new FilmTyp("nowosc", 2, 2.25);
         public List<Film> getFilm() {
-            List<Film> lista = new List<Film>();
-            FilmTyp normalny = new FilmTyp("normalny", 1, 1.5);
-            FilmTyp dzieciecy = new FilmTyp("dzieciecy", 1, 1.2);
-            FilmTyp nowosc = new FilmTyp("nowosc", 2, 2.25);
+            
 
             lista.Add(new Film("Film1","Rezyser1", normalny));
             lista.Add(new Film("Film2", "Rezyser2", dzieciecy));

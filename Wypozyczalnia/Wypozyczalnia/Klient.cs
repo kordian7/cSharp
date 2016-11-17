@@ -22,5 +22,17 @@ namespace Wypozyczalnia {
 
             this.punkty = 0;
         }
+
+        public void addPunkty(int ilPunktow) {
+            this.punkty += ilPunktow;
+        }
+
+        public string getNazwisko() {
+            return nazwisko;
+        }
+
+        public int getPunkty() {
+            return punkty;
+        }
     }
 }
