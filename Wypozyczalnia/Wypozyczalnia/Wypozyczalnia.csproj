@@ -45,7 +45,7 @@
     <Compile Include="FilmDAO.cs" />
     <Compile Include="FilmTyp.cs" />
     <Compile Include="Klient.cs" />
-    <None Include="VipKlientState" />
+    <Compile Include="VipKlientState.cs" />
     <Compile Include="OrdinaryKlientState.cs" />
     <Compile Include="KlientState.cs" />
     <Compile Include="WypozyczeniaDAO.cs" />

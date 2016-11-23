@@ -4,3 +4,9 @@ C:\Users\kokurd\Documents\Visual Studio 2013\Projects\Projekty\Wypozyczalnia\Wyp
 C:\Users\kokurd\Documents\Visual Studio 2013\Projects\Projekty\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.csprojResolveAssemblyReference.cache
 C:\Users\kokurd\Documents\Visual Studio 2013\Projects\Projekty\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.exe
 C:\Users\kokurd\Documents\Visual Studio 2013\Projects\Projekty\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.pdb
+D:\Studia\5 Semestr\TO\C#\cSharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe.config
+D:\Studia\5 Semestr\TO\C#\cSharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.csprojResolveAssemblyReference.cache
+D:\Studia\5 Semestr\TO\C#\cSharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe
+D:\Studia\5 Semestr\TO\C#\cSharp\Wypozyczalnia\Wypozyczalnia\bin\Debug\Wypozyczalnia.pdb
+D:\Studia\5 Semestr\TO\C#\cSharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.exe
+D:\Studia\5 Semestr\TO\C#\cSharp\Wypozyczalnia\Wypozyczalnia\obj\Debug\Wypozyczalnia.pdb
