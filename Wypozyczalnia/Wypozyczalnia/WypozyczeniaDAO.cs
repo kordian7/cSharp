@@ -12,8 +12,9 @@ namespace Wypozyczalnia {
             return lista;
         }
 
-        public void addWypozyczenie(Wypozyczenie wyp) {
+        public Wypozyczenie addWypozyczenie(Wypozyczenie wyp) {
             lista.Add(wyp);
+            return wyp;
         }
     }
 }

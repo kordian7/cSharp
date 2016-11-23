@@ -11,19 +11,24 @@ namespace Wypozyczalnia {
         private DateTime dataOd;
         private DateTime dataDo;
         private double kwota;
+        private KlientState klientState;
 
         public Wypozyczenie(Klient klient, Film film, DateTime dataOd, DateTime dataDo) {
             this.klient = klient;
             this.film = film;
             this.dataOd = dataOd;
             this.dataDo = dataDo;
-            this.obliczKwote();
-
+            this.kwota = obliczKwote();
+            if (klient.getPunkty() > 100)
+                klientState = new VipKlientState();
+            else
+                klientState = new OrdinaryKlientState();
+            this.klient.addPunkty(klientState.liczPunkty(this));
 
         }
 
-        private void obliczKwote() {
-            kwota = film.getFilmTyp().getKosztDnia() * (dataDo - dataOd).TotalDays;
+        private double obliczKwote() {
+            return film.getFilmTyp().getKosztDnia() * (dataDo - dataOd).TotalDays;
         }
 
         public void drukujPotwierdzenie(WyswietlaczPotwierdzenia wyswietlacz) {
@@ -42,5 +47,8 @@ namespace Wypozyczalnia {
             return Convert.ToInt32(Math.Round((dataDo - dataOd).TotalDays));
         }
 
+        public double getKwota() {
+            return kwota;
+        }
     }
 }

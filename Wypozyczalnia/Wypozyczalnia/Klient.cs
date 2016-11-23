@@ -12,7 +12,6 @@ namespace Wypozyczalnia {
         private string adres;
         private string pesel;
         private int punkty;
-        private KlientState state;
 
         public Klient(string imie, string nazwisko, int wiek, string adres, string pesel) {
             this.imie = imie;

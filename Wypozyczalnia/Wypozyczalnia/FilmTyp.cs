@@ -23,5 +23,10 @@ namespace Wypozyczalnia {
         public int getIloscPkt() {
             return iloscPkt;
         }
+
+        public string getTyp()
+        {
+            return this.typ;
+        }
     }
 }

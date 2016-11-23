@@ -20,6 +20,11 @@ namespace Wypozyczalnia {
             return this.filmTyp;
         }
 
+        public string getRodzajFilmu()
+        {
+            return this.filmTyp.getTyp();
+        }
+
         public string getTytul() {
             return this.nazwa;
         }
